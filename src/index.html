@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="bg-peach">
+    <nav class="flex justify-between h-[80px] items-center">
+      <div class="w-1/5 justify-center text-center md:ml-16">
+        <img
+          src="./Images/art.png"
+          alt=""
+          class="w-[50%] ml-6 my-auto md:mt-6 md:ml-[40%] md:w-[20%]"
+        />
+      </div>
+      <div class="w-2/5 justify-center text-center md:w-1/5 md:mr-36">
+        <button
+          class="rounded-[16px] bg-black md:mt-10 w-36 h-12 text-white md:mb-8"
+        >
+          Submit
+        </button>
+      </div>
+    </nav>
+
+    <div
+      id="textzone"
+      class="h-[200px] border-orange-700 w-4/5 flex flex-col justify-center text-center mx-auto items-center"
+    >
+      <p class="text-2xl">Design Solutions made easy</p>
+      <p class="">
+        With over ten years of experience in various design disciple, i'm your
+        one one-stop shop for your design needs
+      </p>
+    </div>
+
+    <div
+      id="container"
+      class="h-[1000px] flex flex-col justify-around md:flex-row md:w-[70%] md:justify-center md:self-center md:gap-6 md:h-[400px] md:mx-auto md:mt-12"
+    >
+      <div
+        id="item-1"
+        class="h-[300px] w-[90%] border-blue-400 mx-auto rounded-[6%] bg-violett flex flex-col md:w-[50%] md:h-[350px]"
+      >
+        <img
+          src="./svg/pattern-graphic-design.svg"
+          alt=""
+          class="self-end m-6"
+        />
+        <p class="m-4 text-white">Graphic Design</p>
+      </div>
+
+      <div
+        id="item-2"
+        class="h-[300px] mx-auto w-[90%] rounded-[16px] flex flex-col justify-between md:w-[50%] md:h-[350px]"
+      >
+        <div id="row1" class="flex justify-between h-[135px]">
+          <div
+            id="left"
+            class="w-[45%] rounded-[16px] bg-orange1 flex flex-col md:h-[160px]"
+          >
+            <img
+              src="./svg/pattern-ui-ux.svg"
+              alt=""
+              class="self-end m-2 scale-75"
+            />
+            <p class="m-4 text-white">UI/UX</p>
+          </div>
+          <div
+            id="right"
+            class="w-[45%] rounded-[16px] bg-roze1 flex flex-col md:h-[160px]"
+          >
+            <img
+              src="./svg/pattern-apps.svg"
+              alt=""
+              class="self-end m-2 scale-75"
+            />
+            <p class="m-4 text-white">Apps</p>
+          </div>
+        </div>
+        <div
+          id="row2"
+          class="h-[135px] w-full rounded-[16px] bg-orange2 flex flex-col md:h-[160px]"
+        >
+          <img
+            src="./svg/pattern-illustrations.svg"
+            alt=""
+            class="self-end m-4 scale-100 h-1/2 w-[30%]"
+          />
+          <p class="text-white ml-4 mb-4">Illustrations</p>
+        </div>
+      </div>
+      <div
+        id="item-3"
+        class="h-[300px] border-yellow-400 mx-auto w-[90%] rounded-[6%] flex flex-col justify-between md:w-[50%] md:h-[350px]"
+      >
+        <div
+          id="item3-top"
+          class="h-[135px] w-full rounded-[16px] bg-vertblue flex flex-col md:h-[160px]"
+        >
+          <img
+            src="./svg/pattern-photography.svg"
+            alt=""
+            class="self-end m-4 scale-100 h-1/2 w-[45%]"
+          />
+          <p class="text-white ml-4 mb-4">Photography</p>
+        </div>
+        <div
+          id="item3-bot"
+          class="h-[135px] w-full rounded-[16px] bg-violetbrown flex flex-col md:h-[160px]"
+        >
+          <img
+            src="./svg/pattern-motion-graphics.svg"
+            alt=""
+            class="self-end m-4 scale-100 h-1/2 w-[40%]"
+          />
+          <p class="text-white ml-4 mb-4">Motion Graphics</p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="h-[500px] w-full flex flex-col md:flex-row justify-around border-red-500 overflow-hidden md:w-[80%] md:mx-auto"
+    >
+      <!-- Image Container -->
+      <div
+        class="w-full h-[45%] flex justify-center items-center border-red-400 md:h-[100%] md:w-[60%]"
+      >
+        <img
+          src="./Images/profile-picture.jpg"
+          class="w-[225px] h-[225px] rounded-[50%] md:w-full md:h-full"
+        />
+      </div>
+
+      <!-- Text Container -->
+      <div
+        class="flex flex-col w-4/5 h-[45%] mx-auto justify-center text-center border-blue-600 md:h-full md:text-left"
+        id="textcontainer"
+      >
+        <div class="md:pl-14">
+          <h1>I'm Wajih, and i'd love to work on your next project</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+            fugit voluptatibus possimus deleniti, debitis excepturi doloremque
+            minus explicabo, a sapiente facilis. A est possimus eum amet
+            doloribus fugiat illum veniam.
+          </p>
+          <button class="rounded-[16px] bg-red-500 md:mt-10 w-36 h-12">
+            Submit
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="pictures"
+      class="h-[500px] flex flex-col items-center mt-14 overflow-hidden md:overflow-hidden w-[100%] md:w-[100%] border-red-500"
+    >
+      <p>My Work</p>
+      <div
+        id="listimages"
+        class="h-[300px] flex justify-center md:gap-5 w-[100%] md:w-[120%] md:ml-0"
+      >
+        <img
+          src="./Images/image-slide-3.jpg"
+          alt=""
+          class="m-4 scale-100 h-full w-[60%] md:w-[100%] md:mx-auto"
+        />
+        <img
+          src="./Images/image-slide-3.jpg"
+          alt=""
+          class="m-4 scale-100 h-full w-[60%] md:w-[100%] md:mx-auto"
+        />
+        <img
+          src="./Images/image-slide-3.jpg"
+          alt=""
+          class="m-4 scale-100 h-full w-[60%] md:w-[100%] md:mx-auto"
+        />
+      </div>
+      <div
+        id="listbuttons"
+        class="flex justify-between w-1/4 pt-12 items-center"
+      >
+        <button
+          class="bg-black text-white w-[46px] h-[46px] rounded-full flex items-center justify-center md:ml-32"
+        >
+          <img
+            src="./svg/icon-arrow-left.svg"
+            alt="Arrow Left"
+            class="scale-50 w-[80%]"
+          />
+        </button>
+        <button
+          class="bg-black text-white w-[46px] h-[46px] rounded-full flex items-center justify-center md:mr-32"
+        >
+          <img
+            src="./svg/icon-arrow-right.svg"
+            alt="Arrow Right"
+            class="scale-50 w-[80%]"
+          />
+        </button>
+      </div>
+    </div>
+
+    <div
+      id="item-1"
+      class="h-[400px] w-[90%] border-blue-400 mx-auto rounded-[16px] bg-black md:w-[80%]"
+    >
+      <div
+        class="flex flex-col w-4/5 h-[90%] mx-auto justify-center text-center border-blue-600 text-white md:flex md:flex-row md:justify-between"
+        id="textcontainer"
+      >
+        <div class="md:w-[50%] md:self-center md:text-left md:ml-12">
+          <h1 class="text-[2rem]">Book a call with me</h1>
+          <p class="pt-8">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+            fugit voluptatibus possimus deleniti, debitis excepturi doloremque
+            minus explicabo, a sapiente facilis. A est possimus eum amet
+            doloribus fugiat illum veniam.
+          </p>
+        </div>
+        <button
+          class="rounded-[16px] w-28 self-center mt-8 bg-red-500 md:w-[25%] md:h-12 md:self-center md:mr-12 md:mt-0"
+        >
+          Submit
+        </button>
+      </div>
+    </div>
+
+    <nav class="flex justify-between h-[80px] items-center">
+      <div class="w-1/5 justify-center text-center md:ml-16">
+        <img
+          src="./Images/art.png"
+          alt=""
+          class="w-[50%] ml-6 my-auto md:mt-6 md:ml-[30%] md:w-[20%]"
+        />
+      </div>
+      <div class="w-2/5 justify-center text-center md:w-1/5 md:mr-16">
+        <button
+          class="rounded-[16px] bg-black md:mt-10 w-36 h-12 text-white md:mb-8"
+        >
+          Submit
+        </button>
+      </div>
+    </nav>
+  </body>
+</html>
